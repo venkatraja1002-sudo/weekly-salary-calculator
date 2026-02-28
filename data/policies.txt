@@ -1,0 +1,6 @@
+Payroll Rules (Sample):
+1) Present day = 1 x dailyRate
+2) Half day = 0.5 x dailyRate
+3) Absent = 0
+4) Overtime pay = otHours x otRate (default otRate = dailyRate/8)
+5) Total = base + overtime + bonus - deductionc
